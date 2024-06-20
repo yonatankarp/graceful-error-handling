@@ -1,4 +1,4 @@
-rootProject.name = "spring-starter"
+rootProject.name = "graceful-error-handling"
 include(
-    "spring-starter"
+    "graceful-error-handling"
 )
