@@ -11,7 +11,6 @@ jobs:
   pipeline:
     uses: yonatankarp/github-actions/.github/workflows/ci.yml@v1
     with:
-      app_name: ${{ matrix.service }}
       context: .
       build_dockerfile: false
 

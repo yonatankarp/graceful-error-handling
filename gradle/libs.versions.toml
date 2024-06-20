@@ -1,4 +1,5 @@
 [versions]
+arrowkt = "1.2.4"
 jvmTarget = "21"
 kotlin = "2.0.0"
 spotless = "6.25.0"
@@ -11,6 +12,7 @@ kotlin_core = { module = "org.jetbrains.kotlin:kotlin-stdlib" }
 kotlin_jackson_module = { module = "com.fasterxml.jackson.module:jackson-module-kotlin" }
 kotlin_reflection = { module = "org.jetbrains.kotlin:kotlin-reflect" }
 springboot_web_starter = { module = "org.springframework.boot:spring-boot-starter-web" }
+arrowkt_core = { module = "io.arrow-kt:arrow-core", version.ref = "arrowkt" }
 
 [plugins]
 

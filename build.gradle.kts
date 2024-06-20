@@ -20,6 +20,7 @@ repositories {
 dependencies {
     implementation(libs.bundles.springboot.all)
     implementation(libs.bundles.kotlin.all)
+    implementation(libs.arrowkt.core)
 }
 
 tasks {
